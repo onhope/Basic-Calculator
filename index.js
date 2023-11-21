@@ -25,5 +25,5 @@ function calculateResult() {
 }
 
 function appeedValue(buttonValue) {
-  inputFieldEl.value += inputFieldEl.value += buttonValue;
+  inputFieldEl.value += buttonValue;
 }
