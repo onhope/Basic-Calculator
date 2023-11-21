@@ -10,7 +10,7 @@ for (let i = 0; i < buttonsEl.length; i++) {
     } else if (buttonValue === "=") {
       calculateResult();
     } else {
-      appeedValue(buttonValue);
+      appeendValue(buttonValue);
     }
   });
 }
@@ -24,6 +24,6 @@ function calculateResult() {
   inputFieldEl.value = eval(inputFieldEl.value);
 }
 
-function appeedValue(buttonValue) {
+function appeendValue(buttonValue) {
   inputFieldEl.value += buttonValue;
 }
