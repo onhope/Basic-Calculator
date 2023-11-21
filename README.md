@@ -1,5 +1,5 @@
 # Basic-Calculator
-<img src="./Basic Calculator.gif" width="400px">
+<img src="./images/Basic Calculator.gif" width="400px">
 
 ## 기능
 사칙연산 계산기 
@@ -9,7 +9,7 @@
 ### 1. css :  grid  
 : CSS grid 레이아웃은 웹페이지를 위한 이차원 레이아웃 시스템     
 
-<img src="./grid.png">  
+<img src="./images/grid.png">  
 
 <br>
 
@@ -26,7 +26,7 @@
   grid-template-columns: 200px 200px 200px;
 }
 ```
-<img src="./grid 200px.png">
+<img src="./images/grid 200px.png">
 
 : **fr 단위를 사용하여 그리드 행과 열을 가변적으로 조정**할 수 있습니다. fr 단위는 그리드 컨테이너에서 그리드 행과 열의 크기를 유연하게 조정할 수 있는 사용 가능한 공간의 한 분율을 나타냅니다.
 <br>    
@@ -37,7 +37,7 @@
   grid-template-columns: 2fr 1fr 1fr;
 }
 ```
-<img src="./grid 2fr 1fr.png">
+<img src="./images/grid 2fr 1fr.png">
 
 <br>
 
@@ -53,7 +53,7 @@
   grid-gap: 20px;
 }
 ```
-<img src="./grid-gap.png">
+<img src="./images/grid-gap.png">
 
 : 트랙 목록의 반복  
 - 트랙 목록의 전체 또는 일부 섹션만 반복  
@@ -73,7 +73,7 @@
     grid-row: 1 /3;      // 1번째 row 줄부터 3번째 줄까지 차지
   }
 ```
-<img src="./grid-row.png">  
+<img src="./images/grid-row.png">  
 
 - 한 줄을 다 차지하게 할 때 
 
@@ -82,7 +82,7 @@
        grid-column: 1 / -1;
   }
 ```
-<img src="./grid-column.png">
+<img src="./images/grid-column.png">
 
 - span   
 : 위치를 정해주지 않고 상대적으로 자식 그리드의 크기만 설정할 때
@@ -91,7 +91,7 @@
     grid-column: span 2; // 가로로 두 그리드 차지
   }
 ```
-<img src="./grid column span.png">   
+<img src="./images/grid column span.png">   
 
 ```
   .item2 {
@@ -99,7 +99,7 @@
   }
 ```  
 
-<img src="./grid row span.png">
+<img src="./images/grid row span.png">
  
 ### 2. js : eval()  
 : 문자열을 코드로 인식하게 하는 함수  
